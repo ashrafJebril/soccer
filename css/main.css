@@ -37,6 +37,11 @@
 	filter: alpha(opacity=80);
 	opacity: .8;
 }
+.main-logo{
+	background: red;
+	height: 120px;
+	color :red;
+  }
 
 .media.inline-block .media-body {
 	width: auto;
@@ -4172,8 +4177,9 @@ a.logo.vertical_logo img {
 	top: 0;
 	left: 0;
 	right: 0;
-	position: relative;
 	z-index: 1000;
+	display: flex;
+	justify-content: space-between;
 }
 
 .page_header.mobile-active {
@@ -5134,6 +5140,12 @@ section .intro_section .slide_description_wrapper {
 .sf-menu > li > a {
 	font-size: 17px;
 }
+
+.mainmenu_wrapper{
+	display: flex;
+	justify-content: center
+}
+
 
 @media (min-width: 992px) {
 	.mainmenu_wrapper {
